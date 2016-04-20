@@ -1,4 +1,10 @@
 #!/bin/sh
+# https://libraries.io/npm/hubot-rocketchat
+export ROCKETCHAT_ROOM=''
+export LISTEN_ON_ALL_PUBLIC=true
+export ROCKETCHAT_USER=bot
+export ROCKETCHAT_PASSWORD=bot
+export ROCKETCHAT_AUTH=ldap
 
 set -e
 
